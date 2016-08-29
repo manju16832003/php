@@ -13,6 +13,6 @@ class Serializer implements Serializable
 
     public function unserialize($serialized)
     {
-
+        echo "unserialize";
     }
 }
